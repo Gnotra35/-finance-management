@@ -16,7 +16,7 @@
     background-color: rgb(194, 191, 191);
   }
   
-  /* Aligning Wallet Graph and Transactions vertically */
+
   .wallet-graph-transactions-container {
     display: flex;
     flex-direction: column; 

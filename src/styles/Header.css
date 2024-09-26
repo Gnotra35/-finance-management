@@ -1,8 +1,8 @@
-/* src/styles/Header.css */
+
 body {
-  background-color: white; /* Overall page background color */
+  background-color: white;
   margin: 0; 
-  font-family: Arial, sans-serif; /* Set a default font */
+  font-family: Arial, sans-serif; 
 }
 .header-container {
 

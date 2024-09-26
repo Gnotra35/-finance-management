@@ -1,4 +1,4 @@
-// backend/models/finance.js
+
 const mongoose = require('mongoose');
 
 const financeSchema = new mongoose.Schema({

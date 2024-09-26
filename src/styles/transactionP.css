@@ -1,8 +1,8 @@
-/* src/styles/transactionP.css */
+
 body {
-  background-color: white; /* Overall page background color */
+  background-color: white; 
   margin: 0; 
-  font-family: Arial, sans-serif; /* Set a default font */
+  font-family: Arial, sans-serif; 
 }
 .transaction-overview-page {
   padding: 20px;
@@ -161,7 +161,6 @@ body {
   background-color: white;
 }
 /* Modal Styles */
-/* Modal Overlay */
 .modal-overlay {
   position: fixed;
   top: 0;
