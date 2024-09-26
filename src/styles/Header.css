@@ -1,0 +1,62 @@
+/* src/styles/Header.css */
+body {
+  background-color: white; /* Overall page background color */
+  margin: 0; 
+  font-family: Arial, sans-serif; /* Set a default font */
+}
+.header-container {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+  margin-left: 300px;
+  
+  
+}
+
+.header-welcome {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-right: 20px;
+}
+
+.header-icon {
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+}
+
+.header-profile-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #4b4848;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.header-profile-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.header-profile-name {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff !important; 
+  padding-left: 3px;
+}

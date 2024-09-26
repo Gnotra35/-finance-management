@@ -1,0 +1,170 @@
+/* General Styles */
+body {
+    background-color: white; /* Overall page background color */
+    margin: 0; 
+    font-family: Arial, sans-serif; /* Set a default font */
+}
+
+/* Header Styles */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Header background */
+    border-bottom: 1px solid #ddd;
+    margin: 0 20px;
+    padding: 10px 0;
+}
+
+.header-welcome {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-right: 20px;
+}
+
+.header-icon {
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+}
+
+.header-profile-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #4b4848;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.header-profile-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.header-profile-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff !important;
+    padding-left: 3px;
+}
+
+/* Overview Toolbar Styles */
+.overview-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+   /* Ensure white background */
+}
+
+/* Date Picker Styles */
+.overview-date-picker-container {
+    display: flex;
+    align-items: center;
+}
+
+.overview-calendar-icon {
+    font-size: 18px;
+    color: #333;
+    margin-right: 10px;
+}
+
+.overview-month-label {
+    border: 1px solid;
+    background-color: transparent;
+    font-size: 16px;
+    color: #333;
+    cursor: default;
+}
+
+/* Toolbar Buttons */
+.toolbar-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.toolbar-button-export,
+.toolbar-button-manage,
+.toolbar-button-add {
+    padding: 10px 20px;
+    border: 1px solid;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+   /* Button background */
+    color: black; /* Button text color */
+}
+
+.toolbar-button-export:hover,
+.toolbar-button-manage:hover {
+    background-color: black; /* Hover effect for export/manage buttons */
+    color: white;
+}
+
+.toolbar-button-add {
+    background-color: black; /* Add button styling */
+    color: white;
+}
+
+.toolbar-button-add:hover {
+    background-color: grey; /* Hover effect for add button */
+}
+
+/* Analytics Top Widgets Styles */
+.analytics-top-widgets {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 10px;
+    /* Ensure white background */
+}
+
+/* Chart Overview Styles */
+.chart-overview-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px; /* Adjust gap between charts */
+    padding: 20px;
+}
+
+/* Budget Chart and Statistic Chart Styles */
+.budget-chart-container,
+.statistic-chart-container {
+    flex: 1;
+    padding: 20px; 
+    margin: 20px; 
+    border-radius: 8px; 
+    border: 1 px solid black;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+
+.statistic-chart-container {
+    margin-top: 5px; 
+    padding-right: 10px; 
+    margin-right:10px;
+     
+}
+.budget-chart-container{
+     margin-left:10px;
+     width:90%;
+     height:350px;
+}
+.budget-chart-container- monthly-expenses{
+ width:90%;
+}

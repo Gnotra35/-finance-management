@@ -1,0 +1,16 @@
+/* src/styles/App.css */
+.app {
+  display: flex;
+  position: relative;
+  scroll-behavior: auto;
+  height: 100%;
+  width: 100%;
+  
+}
+
+
+.main-content {
+  margin:50px;
+  flex: 1;
+  padding: 0px;
+}

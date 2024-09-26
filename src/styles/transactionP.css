@@ -1,0 +1,238 @@
+/* src/styles/transactionP.css */
+body {
+  background-color: white; /* Overall page background color */
+  margin: 0; 
+  font-family: Arial, sans-serif; /* Set a default font */
+}
+.transaction-overview-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.overview-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+  margin: 0 20px;
+  padding: 10px 0;
+}
+
+.overview-header-left {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.overview-header-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-right: 20px;
+}
+
+.overview-header-icon {
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+}
+
+.overview-profile-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #4b4848;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.overview-profile-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.overview-profile-name {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff !important;
+  padding-left: 3px;
+}
+
+.overview-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top:30px;
+  margin-left:20px;
+  margin-right:20px;
+}
+
+.overview-date-picker-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.overview-calendar-icon {
+  font-size: 24px;
+  color: #333;
+  padding:10px;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overview-month-label {
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  width: 130px;
+}
+
+.overview-toolbar-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.overview-toolbar-button-export {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: black;
+  font-size: 14px;
+  cursor: pointer;
+  border: 1px solid #333;
+}
+
+.overview-toolbar-button-add {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.overview-toolbar-button-export:hover {
+  background-color: #f4f4f4;
+}
+
+.overview-toolbar-button-add:hover {
+  background-color: black;
+}
+
+.overview-transaction-content {
+  width: 96%;
+  margin-left: 20px;
+  margin-right:30px;
+}
+
+.overview-transaction-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.overview-transaction-table th,
+.overview-transaction-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.overview-transaction-table th {
+  background-color: grey;
+  font-weight: bold;
+}
+
+.overview-transaction-table tr {
+  background-color: white;
+}
+/* Modal Styles */
+/* Modal Overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal Container */
+.modal {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Modal Header */
+.modal h2 {
+  margin-bottom: 20px;
+}
+
+/* Form Elements */
+.modal label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.modal input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Form Buttons */
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.submit-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+.cancel-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cancel-button:hover {
+  background-color: #e53935;
+}

@@ -1,0 +1,139 @@
+/* src/styles/SettingsPage.css */
+
+.settings-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.settings-title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #4a4a4a;
+}
+
+.settings-sections {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.settings-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.settings-card:hover {
+    transform: translateY(-5px);
+}
+
+.settings-icon {
+    width: 24px;
+    height: 24px;
+    color: #4a90e2;
+    margin-bottom: 10px;
+}
+
+.settings-card h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.settings-item {
+    margin-bottom: 15px;
+}
+
+.settings-item label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.settings-item input,
+.settings-item select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.settings-item input[type="checkbox"] {
+    width: auto;
+}
+
+/* Danger Zone Styles */
+.danger-zone {
+    background-color: #ffeaea;
+    border: 1px solid #ff5a5a;
+}
+
+.danger-icon {
+    color: #ff5a5a;
+}
+
+.danger-btn {
+    background-color: #f44336; /* Red color for buttons */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.danger-btn:hover {
+    background-color: #d64545; /* Darker red on hover */
+}
+
+/* Delete Confirmation Styles */
+.delete-confirmation {
+    margin-top: 10px;
+}
+
+/* Settings Actions Styles */
+.settings-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; /* Adjust spacing as needed */
+}
+
+.cancel-btn {
+    background-color: #e0e0e0; /* Light gray for cancel changes */
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+    background-color: #2d2d2d;
+    color: #eee;
+}
+
+.dark-mode .settings-card {
+    background-color: #3e3e3e;
+    color: #eee;
+}
+
+.dark-mode input,
+.dark-mode select {
+    background-color: #555;
+    color: #eee;
+    border: 1px solid #888;
+}
+.save-message {
+    margin-top: 20px;
+    color: #4caf50; 
+    font-weight: bold;
+    text-align: center;
+}
+

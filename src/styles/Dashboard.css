@@ -1,0 +1,152 @@
+/* src/styles/Dashboard.css */
+body {
+  background-color: white; /* Overall page background color */
+  margin: 0; 
+  font-family: Arial, sans-serif; /* Set a default font */
+}
+.dashboard {
+  padding: 20px;
+ 
+}
+
+.dashboard-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  
+  
+}
+
+.date-picker-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.calendar-icon {
+  font-size: 24px;
+  color: #333;
+  padding: 10px;
+  background-color: white;
+  border-radius: 50%;
+  border: 2px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.month-label {
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  width: 70px;
+}
+
+.toolbar-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.toolbar-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.toolbar-button-widget {
+  padding: 8px 16px;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  border-color: #333;
+  cursor: pointer;
+}
+
+.toolbar-button-widget:hover {
+  background-color: #333;
+  color: white;
+}
+
+.toolbar-button:hover {
+  background-color: black;
+}
+
+.top-widgets {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.widget {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.widget-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.widget-value {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.widget-change {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #4caf50;
+}
+
+.charts {
+  display: flex;
+  background-color: #f9f9f9;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.budget-overview {
+  flex: 1;
+  padding: 20px;
+  
+  border-radius: 12px;
+  
+}
+
+.budget-section {
+  background-color: #f9f9f9;
+  display: flex;
+  margin:10px;
+  justify-content: space-between; 
+  gap: 10px; 
+  align-items: flex-start; 
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pie-chart-container {
+  border: 1px solid grey;
+  padding: 5px;
+  width: 450px; 
+  border-radius: 5px;
+  margin-top: 70px;
+  background-color: #f9f9f9;
+  margin-right: auto;
+}

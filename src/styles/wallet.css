@@ -1,0 +1,171 @@
+
+.wallet-button {
+    position: absolute;
+    margin-top: 20px;
+    right: 40px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .wallet-button:hover {
+    background-color: rgb(194, 191, 191);
+  }
+  
+  /* Aligning Wallet Graph and Transactions vertically */
+  .wallet-graph-transactions-container {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+    margin: 30px 0;
+  }
+  
+  .wallet-transactions {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column; 
+    margin-top: 20px;
+  }
+  
+  .wallet-container {
+    flex: 1;
+    margin: 10px;
+    margin-right: 100px;
+    height: 300px;
+  }
+  
+  .container {
+    flex: 1;
+    margin: 10px;
+  }
+  
+ 
+  .balance-container {
+    width: 300px;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 50px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+  
+  .balance-container h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+  }
+  
+  .balance-amount {
+    font-size: 18px;
+    padding-left: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .balance-description {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+    padding-left: 20px;
+  }
+  
+  .balance-buttons {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 20px;
+  }
+  
+  .balance-buttons button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .transfer-button {
+    background-color: rgb(226, 226, 233);
+    color: black;
+  }
+  
+  .transfer-button:hover {
+    background-color: grey;
+  }
+  
+  .request-button {
+    background-color: rgb(226, 226, 233);
+    color: black;
+  }
+  
+  .request-button:hover {
+    background-color: #007bb5;
+  }
+  
+
+  .containers-flex {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 50px;
+    gap: 20px;
+  }
+  
+  /* Account items styling */
+  .account-items {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    height: 100px;
+    width: 100px;
+    padding-left: 10px;
+  }
+  
+  .accounts-container h2 {
+    margin-top: 45px;
+    margin-bottom: 5px;
+  }
+  
+  .account-item img {
+    width: 200px;
+    height: 130px;
+  }
+  
+  
+.wallet-stats-container {
+    display: flex; 
+    margin-top: 30px; 
+    gap: 20px;
+    
+  }
+  
+
+  .wallet-graph-transactions-container {
+    display: flex;
+   
+    flex-direction: column;
+    gap: 10px; 
+    flex: 2;
+  }
+  
+  
+  .statistics-container {
+    flex: 1; 
+    margin-left: 20px; 
+    
+    margin-top:15px;
+    margin-right:20px;
+  }
+  
+  
+  .wallet-graph {
+    width: 100%; 
+    border: 2px solid #000; 
+    border-radius: 10px;
+    padding: 10px; 
+    background-color: #f9f9f9; 
+  }
+  

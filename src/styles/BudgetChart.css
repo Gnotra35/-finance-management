@@ -1,0 +1,37 @@
+body {
+  background-color: white; /* Overall page background color */
+  margin: 0; 
+  font-family: Arial, sans-serif; /* Set a default font */
+}
+.budget-chart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #e1e8ed;
+  border-radius: 8px;
+  padding: 20px;
+  width:50%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  
+}
+
+.budget-chart .chart-legend {
+  list-style: none;
+  padding: 0;
+}
+
+.budget-chart .chart-legend li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.budget-chart .chart-legend span {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin-right: 8px;
+  border-radius: 50%;
+  
+}

@@ -1,0 +1,22 @@
+/* styles/Chart.css */
+.chart {
+    background-color: #fff;
+    border: 1px solid #e1e8ed;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  /* Chart.css */
+.chart {
+  margin-top:50px;
+  width: 70%; /* Adjust the width as needed */
+  margin-left:0px; /* Center the graph */
+  height: 200px; /* Keep the height consistent */
+
+}
+body {
+  background-color: white; /* Overall page background color */
+  margin: 0; 
+  font-family: Arial, sans-serif; /* Set a default font */
+}
