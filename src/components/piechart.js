@@ -25,7 +25,7 @@ const StyledText = styled('text')(({ theme }) => ({
 
 const Heading = styled('div')(({ theme }) => ({
   textAlign: 'center',
-   marginBottom: '10px',
+  marginBottom: '10px',
   fontSize: '24px',
   fontWeight: 'bold',
 }));
@@ -34,7 +34,7 @@ function PieCenterLabel({ children }) {
   const { width, height, left, top } = useDrawingArea();
   return (
     <StyledText x={left + width / 2} y={top + height / 2}>
-      {children}
+      {children}   
     </StyledText>
   );
 }

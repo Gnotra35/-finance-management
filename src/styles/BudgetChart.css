@@ -1,16 +1,15 @@
 body {
-  background-color: white; /* Overall page background color */
+  background-color: white; 
   margin: 0; 
-  font-family: Arial, sans-serif; /* Set a default font */
+  font-family: Arial, sans-serif; 
 }
 .budget-chart {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  
   background-color: #fff;
   border: 1px solid #e1e8ed;
   border-radius: 8px;
-  padding: 20px;
   width:50%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   

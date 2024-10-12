@@ -1,4 +1,4 @@
-// src/components/Widget.js
+
 import React from 'react';
 import '../styles/Widget.css';
 

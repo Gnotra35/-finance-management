@@ -24,7 +24,7 @@ const TransactionTable = () => {
     }
   ];
 
-  // Replace this with your actual transaction data
+  
   const transactions = [
     {
       date: '27 Jul 24',

@@ -4,7 +4,9 @@ body {
   margin: 0; 
   font-family: Arial, sans-serif;
 }
-
+.goalspage{
+  margin-left:220px;
+}
 .saving-goals-page {
   padding: 20px;
   font-family: Arial, sans-serif;

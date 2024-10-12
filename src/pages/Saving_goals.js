@@ -45,6 +45,7 @@ const SavingGoals = () => {
 
   return (
     <div>
+      <div className='goalspage'>
       <header className="header-container">
         <div className="header-welcome">
           <h2>Goals</h2>
@@ -185,6 +186,7 @@ const SavingGoals = () => {
           </div>
         </div>
       )}
+    </div>
     </div>
   );
 };

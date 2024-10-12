@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FaSearch, FaBell } from 'react-icons/fa';
 import profilePic from '../images/logo.png';
 import WalletTransactions from '../components/wallettransaction';
@@ -8,6 +8,13 @@ import '../styles/wallet_table.css';
 import StatisticsOverview from '../components/StatisticsChart';
 
 const Wallet = () => {
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
+  
+  // Function to toggle the popup
+  const togglePopup = () => {
+    setIsPopupOpen(!isPopupOpen);
+  };
+
   return (
     <div className="wallet-page">
       <header className="header-container">
@@ -25,13 +32,34 @@ const Wallet = () => {
         </div>
       </header>
 
-      <button className="wallet-button">
+      <button className="wallet-button" onClick={togglePopup}>
         + Add New Wallet
       </button>
 
-      {/* Containers for Balance and Accounts */}
+      {isPopupOpen && (
+        <div className="popup">
+          <div className="popup-content">
+            <h2>Add New Wallet</h2>
+            <form className="wallet-form">
+              <label>Wallet Name:</label>
+              <input type="text" placeholder="Enter wallet name" />
+
+              <label>Initial Balance:</label>
+              <input type="number" placeholder="Enter initial balance" />
+
+              <label>Currency:</label>
+              <input type="text" placeholder="Enter currency" />
+
+              <div className="popup-buttons">
+                <button type="submit" className="popup-save-button">Save</button>
+                <button type="button" className="popup-cancel-button" onClick={togglePopup}>Cancel</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      )}
+
       <div className="containers-flex">
-        {/* Balance Container */}
         <div className="balance-container">
           <h2>Total Balance</h2>
           <p className="balance-amount">$ 20,000</p>
@@ -59,15 +87,12 @@ const Wallet = () => {
         </div>
       </div>
 
- {/* New Section for Wallet Graph, Transactions, and Statistics Overview */}
- <div className="wallet-stats-container">
-        {/* Wallet Graph and Transactions Container */}
+      <div className="wallet-stats-container">
         <div className="wallet-graph-transactions-container">
           <WalletGraph />
           <WalletTransactions />
         </div>
 
-        {/* Statistics Overview */}
         <div className="statistics-container">
           <StatisticsOverview />
         </div>
@@ -75,6 +100,5 @@ const Wallet = () => {
     </div>
   );
 };
-
 
 export default Wallet;

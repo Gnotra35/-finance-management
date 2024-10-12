@@ -6,7 +6,9 @@
   .help-container h1, h2 {
     color: #333;
   }
-  
+  .helppage{
+    margin-left:250px;
+  }
   .help-container p {
     font-size: 16px;
     line-height: 1.6;

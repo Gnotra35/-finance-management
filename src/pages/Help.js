@@ -1,8 +1,9 @@
 import React from 'react';
-import '../styles/help.css'; // Create this CSS file for help page styling if needed.
+import '../styles/help.css'; 
 
 const Help = () => {
   return (
+    <div className='helppage'>
     <div className="help-container">
       <h1>Help & Support</h1>
       <p>Welcome to the Help section. Here, you can find the answers to frequently asked questions, tutorials, and troubleshooting tips.</p>
@@ -29,6 +30,7 @@ const Help = () => {
       <p>If you need further assistance, please reach out to our support team via email or phone.</p>
       <p>Email: <a href="mailto:support@example.com">support@example.com</a></p>
       <p>Phone: +1 234-567-890</p>
+    </div>
     </div>
   );
 };

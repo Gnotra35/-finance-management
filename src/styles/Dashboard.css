@@ -1,21 +1,27 @@
- 
+/* General styles */
 body {
-  background-color: white; 
-  margin: 0; 
-  font-family: Arial, sans-serif; 
-}
-.dashboard {
-  padding: 20px;
- 
+  background-color: white;
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
+/* Dashboard layout */
+.dashboard {
+  padding: 20px;
+}
+
+.dashboard-fixed {
+  padding-left: 220px;
+  margin-right: 5px;
+}
+
+/* Toolbar styling */
 .dashboard-toolbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 20px;
-  
-  
+  margin-left: 5px;
 }
 
 .date-picker-container {
@@ -46,27 +52,32 @@ body {
 
 .toolbar-buttons {
   display: flex;
-  gap: 10px;
+  gap: 5px;
+  margin-right: 20px;
 }
 
-.toolbar-button {
+.toolbar-button,
+.toolbar-button-widget {
   padding: 8px 16px;
   border: none;
   border-radius: 5px;
-  background-color: #333;
-  color: white;
   font-size: 14px;
   cursor: pointer;
 }
 
+.toolbar-button {
+  background-color: #333;
+  color: white;
+}
+
 .toolbar-button-widget {
-  padding: 8px 16px;
-  border-radius: 5px;
   background-color: white;
   color: black;
-  font-size: 14px;
-  border-color: #333;
-  cursor: pointer;
+  border: 2px solid #333;
+}
+
+.toolbar-button:hover {
+  background-color: black;
 }
 
 .toolbar-button-widget:hover {
@@ -74,14 +85,13 @@ body {
   color: white;
 }
 
-.toolbar-button:hover {
-  background-color: black;
-}
-
+/* Widgets styling */
 .top-widgets {
   display: flex;
   gap: 30px;
   margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 10px;
 }
 
 .widget {
@@ -114,28 +124,30 @@ body {
   color: #4caf50;
 }
 
+/* Chart styles */
 .charts {
   display: flex;
-  background-color: #f9f9f9;
+  margin-top: 30px;
   gap: 20px;
   justify-content: space-between;
+  background-color: #f9f9f9;
 }
 
 .budget-overview {
   flex: 1;
   padding: 20px;
-  
   border-radius: 12px;
-  
 }
 
 .budget-section {
   background-color: #f9f9f9;
+  height: 300px;
   display: flex;
-  margin:10px;
-  justify-content: space-between; 
-  gap: 10px; 
-  align-items: flex-start; 
+  margin-left: 20px;
+  margin-right: 10px;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: flex-start;
   border-radius: 12px;
   padding: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -144,9 +156,123 @@ body {
 .pie-chart-container {
   border: 1px solid grey;
   padding: 5px;
-  width: 450px; 
+  width: 450px;
   border-radius: 5px;
-  margin-top: 70px;
+  margin-top: 30px;
   background-color: #f9f9f9;
   margin-right: auto;
+}
+
+/* Header styling */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+  width: 1030px;
+}
+
+.header-welcome {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-right: 20px;
+}
+
+.header-icon {
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+}
+
+.header-profile-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #4b4848;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.header-profile-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.header-profile-name {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff !important;
+  padding-left: 3px;
+}
+
+/* Modal styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Add Widget Modal */
+.add-widget-modal,
+.manage-widget-modal {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+/* Form styling for both modals */
+.add-widget-form,
+.manage-widget-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-widget-form label,
+.manage-widget-form label {
+  margin-bottom: 8px;
+}
+
+.add-widget-form select,
+.manage-widget-form input {
+  margin-bottom: 12px;
+  padding: 8px;
+}
+
+.add-widget-form button,
+.manage-widget-form button {
+  margin-top: 10px;
+  padding: 8px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-widget-form button:hover,
+.manage-widget-form button:hover {
+  background-color: #555c55;
 }

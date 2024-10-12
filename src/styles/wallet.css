@@ -11,7 +11,9 @@
     font-size: 14px;
     cursor: pointer;
   }
-  
+  .wallet-page{
+    margin-left:213px;
+  }
   .wallet-button:hover {
     background-color: rgb(194, 191, 191);
   }
@@ -111,7 +113,7 @@
     display: flex;
     align-items: flex-start;
     margin-top: 50px;
-    gap: 20px;
+    gap: 90px;
   }
   
   /* Account items styling */
@@ -168,4 +170,70 @@
     padding: 10px; 
     background-color: #f9f9f9; 
   }
-  
+  /* Popup background */
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Popup content styling */
+.popup-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Form styling */
+.wallet-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.wallet-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.popup-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popup-save-button,
+.popup-cancel-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.popup-save-button {
+  background-color: green;
+  color: white;
+}
+
+.popup-cancel-button {
+  background-color: red;
+  color: white;
+}
+
+.popup-save-button:hover {
+  background-color: darkgreen;
+}
+
+.popup-cancel-button:hover {
+  background-color: darkred;
+}

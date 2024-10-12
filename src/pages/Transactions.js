@@ -79,8 +79,6 @@ const TransactionOverview = () => {
 
   return (
     <div className="transaction-overview-page">
-      {/* Header Section */}
-      
       <header className="header-container">
         <div className="header-welcome">
           <h2>Transactions</h2>

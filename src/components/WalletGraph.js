@@ -29,7 +29,7 @@ const WalletGraph = () => {
         min: 1000,
         max: 3000,
         ticks: {
-          callback: (value) => `£${value}`,
+          callback: (value) => `INRS${value}`,
         },
       },
     },

@@ -1,21 +1,22 @@
-/* General Styles */
+
 body {
-    background-color: white; /* Overall page background color */
+    background-color: white; 
     margin: 0; 
-    font-family: Arial, sans-serif; /* Set a default font */
+    font-family: Arial, sans-serif; 
 }
 
-/* Header Styles */
+
 .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* Header background */
     border-bottom: 1px solid #ddd;
     margin: 0 20px;
     padding: 10px 0;
 }
-
+.analyticspage{
+    margin-left:220px;
+}
 .header-welcome {
     display: flex;
     flex-direction: column;

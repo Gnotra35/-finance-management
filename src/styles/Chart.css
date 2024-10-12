@@ -1,4 +1,4 @@
-/* styles/Chart.css */
+
 .chart {
     background-color: #fff;
     border: 1px solid #e1e8ed;
@@ -6,10 +6,10 @@
     padding: 20px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
-    margin-top:50px;
-  width: 70%; 
-  margin-left:0px; 
-  height: 200px; 
+    margin-top:10px;
+    width: 70%; 
+    margin-left:0px; 
+    height: 200px; 
   }
  
 

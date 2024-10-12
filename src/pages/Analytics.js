@@ -29,6 +29,7 @@ const Analytics = () => {
 
   return (
     <div>
+      <div className='analyticspage'>
       <header className="header-container">
         <div className="header-welcome">
           <h2>Analytics</h2>
@@ -79,6 +80,7 @@ const Analytics = () => {
           <StatisticsOverview />
         </div>
       </div>
+    </div>
     </div>
   );
 };

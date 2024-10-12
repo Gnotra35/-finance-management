@@ -41,6 +41,7 @@ const Settings = () => {
   };
 
   return (
+    <div className='settingpage'>
     <div className={`settings-page ${darkMode ? 'dark-mode' : ''}`}>
       <h1 className="settings-title">Settings</h1>
 
@@ -152,6 +153,8 @@ const Settings = () => {
 
       {saveMessage && <div className="save-message">{saveMessage}</div>}
     </div>
+    </div>
+
   );
 };
 
