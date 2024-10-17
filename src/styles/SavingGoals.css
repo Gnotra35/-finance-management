@@ -5,7 +5,8 @@ body {
   font-family: Arial, sans-serif;
 }
 .goalspage{
-  margin-left:220px;
+  margin-left:270px;
+  margin-top:15px;
 }
 .saving-goals-page {
   padding: 20px;
@@ -277,6 +278,7 @@ body {
 .goal-count {
   margin: 10px 0;
   font-size: 16px;
+  margin-left:5px;
 }
 
 .goal-status-buttons {

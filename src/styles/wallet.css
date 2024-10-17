@@ -12,7 +12,8 @@
     cursor: pointer;
   }
   .wallet-page{
-    margin-left:213px;
+    margin-left:260px;
+    margin-top:15px;
   }
   .wallet-button:hover {
     background-color: rgb(194, 191, 191);

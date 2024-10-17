@@ -15,7 +15,8 @@ body {
     padding: 10px 0;
 }
 .analyticspage{
-    margin-left:220px;
+    margin-left:260px;
+    margin-top:18px;
 }
 .header-welcome {
     display: flex;

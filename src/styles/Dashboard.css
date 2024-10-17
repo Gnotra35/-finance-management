@@ -11,8 +11,9 @@ body {
 }
 
 .dashboard-fixed {
-  padding-left: 220px;
+  padding-left: 278px;
   margin-right: 5px;
+  margin-top:15px;
 }
 
 /* Toolbar styling */

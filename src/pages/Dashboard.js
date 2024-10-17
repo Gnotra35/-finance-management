@@ -18,7 +18,7 @@ const Dashboard = () => {
   useEffect(() => {
     const fetchFinanceData = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/finance/all');
+        const response = await axios.get('http://localhost:3000/api/finance/all');
         const data = response.data;
 
         if (data.length > 0) {
